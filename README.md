@@ -11,7 +11,7 @@ docker build -t zincio/zn-proxy:latest .
 Running
 -------
 ```bash
-docker run -d --rm \
+docker run -d \
     --restart=always \
     --name zn-proxy \
     -p 8443:8443 \
